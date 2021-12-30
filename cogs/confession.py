@@ -52,7 +52,7 @@ class Command(commands.Cog):
 
     @commands.command(name = 'source')
     async def source(self, ctx):
-        embed = discord.Embed(title = 'Source', description = 'https://github.com/Posterizedsoul/Confession_bot')
+        embed = discord.Embed(title = 'Source', description = 'https://github.com/Posterizedsoul/Confessionbot')
         await ctx.channel.send(embed = embed)
 
 def setup(bot):
